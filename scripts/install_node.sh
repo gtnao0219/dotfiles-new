@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-set -euo pipefail
+set -eu
 
 VERSION=18
 

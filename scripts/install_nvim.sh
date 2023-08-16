@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-set -euo pipefail
+set -eu
 
 sudo apt update
 sudo apt install -y software-properties-common
