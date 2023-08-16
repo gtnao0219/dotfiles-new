@@ -1,3 +1,6 @@
+deply:
+	sh ./scripts/deply.sh
+
 init:
 	sh ./scripts/init.sh
 

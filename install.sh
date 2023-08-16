@@ -27,6 +27,7 @@ if [ ! -d "${DOTFILES_DIR}" ]; then
     sudo apt update
     sudo apt install -y build-essential
   fi
+  make -C "${DOTFILES_DIR}" deploy
   make -C "${DOTFILES_DIR}" init
 fi
 
