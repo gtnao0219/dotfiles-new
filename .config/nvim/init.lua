@@ -81,5 +81,5 @@ vim.api.nvim_create_autocmd('FileType', {
 })
 
 
-vim.cmd [[colorscheme gruvbox-material]]
+pcall(vim.cmd, [[colorscheme gruvbox-material]])
 
