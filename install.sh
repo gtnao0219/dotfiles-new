@@ -25,5 +25,11 @@ if [ ! -d "${DOTFILES_DIR}" ]; then
     echo "git, curl, wget is not found"
     exit 1
   fi
+
+  if ! command -v make >/dev/null 2>&1; then
+    sudo apt update
+    sudo apt install -y build-essential
+  fi
+  make -C "${DOTFILES_DIR}" init
 fi
 
