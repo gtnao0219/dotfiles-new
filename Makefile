@@ -1,5 +1,5 @@
-deply:
-	sh ./scripts/deply.sh
+deploy:
+	sh ./scripts/deploy.sh
 
 init:
 	sh ./scripts/init.sh
