@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-set -euo pipefail
+set -eu
 
 DOTFILES_DIR="${HOME}/dotfiles"
 GITHUB_USER_NAME="gtnao0219"
