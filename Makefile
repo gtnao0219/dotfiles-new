@@ -15,3 +15,8 @@ install_tmux:
 install_node:
 	sh ./scripts/install_node.sh
 
+install_go:
+	sh ./scripts/install_go.sh
+
+install_rust:
+	sh ./scripts/install_rust.sh
